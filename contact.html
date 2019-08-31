@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Keep in touch</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- navbar -->
+    <a href="index.html" id="logo"><img src="logo.png" alt=""></a>
+    <div id="myTopnav" class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html" clalss="active">Services</a>
+        <a href="cutsheet.html">Cut Sheets</a>
+        <a href="contact.html">Contact Us</a>
+        <button class="iconbtn"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+    </a>
+    <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    </div>
+    <div class="pic">
+
+        <div class="titleContact">
+          <h1>Get in touch</h1>
+        </div>
+
+        <div class="container">
+          <p>We prefer you call us at (570) 241-5122 or (570) 689-9573, or you can leave a message down below</p>
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/paulnjoann@verizon.net" method="post">
+            <fieldset id="fs-frm-inputs">
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <input type="telephone" name="telephone" id="telephone" placeholder="555-555-5555" required="">
+              <textarea rows="5" name="message" id="message" placeholder="Tell us what you think" required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+        </div>
+        
+      </div>
+    
+</body>
+</html>

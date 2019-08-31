@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+    <link rel="stylesheet" href="cutsheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- navbar -->
+    <a href="index.html" id="logo"><img src="logo.png" alt=""></a>
+    <div id="myTopnav" class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="cutsheet.html">Cut Sheets</a>
+        <a href="contact.html">Contact Us</a>
+        <button class="iconbtn"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+    </a>
+    <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+    </div>
+    <div class="picAbout">
+        <div class="titleAbout">
+            <h1>Cutsheets</h1>
+        </div> <!-- end titleAbout -->
+
+        <div class="space"></div>
+
+        <div class="box">
+                
+                <h2>Beef</h2>
+                <p>Here you can find our beef cut sheet</p>
+                <p><a href="beef.html">Click here for the beef cut sheet!</a></p>
+                
+                <h2>Lamb & Goat</h2>
+                <p>Here you can find our lamb & goat cut sheet</p>
+                <p><a href="lamb&goat.html">Click here for the lamb & goat cut sheet!</a></p>
+                
+                <h2>Pork</h2>
+                <p>Here you can find our pork cut sheet</p>
+                <p><a href="pork.html">Click here for the pork cut sheet!</a></p>
+
+                <h2>Deer</h2>
+                <p>Here you can find our deer cut sheet</p>
+                <p><a href="deer.html">Click here for the deer cut sheet!</a></p>
+
+        </div> <!-- end box -->
+    </div> <!-- end picAbout -->
+     <!-- used for 10% spacing between elements -->
+     <div class="space"></div>
+</body>
+</html>
