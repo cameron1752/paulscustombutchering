@@ -9,7 +9,7 @@ body, html {
 
 /* so far handles all background images */
 .pic{
-  background-image: url("temp_landing.jpg");
+  background-image: url("/images/temp_landing.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
