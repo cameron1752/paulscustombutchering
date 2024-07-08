@@ -160,9 +160,9 @@ body, html {
         top: 20vh;
     }
     .box{
-        top: 40vh;
+        /* top: 40vh; */
         width: 300px;
-        left: 5%;
+        /* left: 5%; */
     }
   }
   

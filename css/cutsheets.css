@@ -173,10 +173,10 @@ body, html {
     .box{
         top: 40vh;
     }
-    .container{
+    /* .container{
       width: 300px;
       left: 5%;
-    }
+    } */
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */

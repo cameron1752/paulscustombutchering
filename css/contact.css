@@ -191,11 +191,11 @@ input[type=text], select, textarea {
   .box{
       top: 40vh;
   }
-  .container{
+  /* .container{
     top: 30%;
     width: 300px;
     left: 5%;
-  }
+  } */
   
 }
 
