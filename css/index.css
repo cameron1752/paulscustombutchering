@@ -152,11 +152,11 @@ button{
       width: 85%;
     }
     /* container element for the buttons */
-    .boxes{
+    /* .boxes{
         display: block;
         padding-top: 4%;
         padding-left: 24%;
-    }
+    } */
     .iframe{
         display: none;
         width: 300px;
@@ -176,9 +176,5 @@ button{
       width: 75%;
       border-radius: 10px;
       padding-bottom: 20px;
-    }
-    .box a{
-      padding: 10px;
-      display: flex;
     }
 }
